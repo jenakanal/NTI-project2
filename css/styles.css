@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline-style: none;
+}
+
+html {
+	font-family: "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+	font-size: 16px;
+}
+
+body {
+	background-color: #000;
+}
+
+.clearFix {
+	clear: both;
+}
+.act {
+	background-color: #26592b;
+	color: #fff !important;
+}
+
+#container {
+	margin: 0 auto;
+	width: 920px;
+}
+
+#header {
+	background: #000 url("../images/bg1.jpg") no-repeat;
+	height: 115px;
+}
+
+#header>div {
+	float: right;
+	margin: 20px 20px 0 0;
+}
+
+#header a {
+	opacity: 0.5;
+}
+
+#header a:hover {
+	opacity: 1;
+}
+
+#nav {
+	background-color: #000;
+	border-top: thin solid #999;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+	color: #999;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+
+#nav ul li a:hover {
+	background-color: #3299FE;
+	color: #fff;
+}
+
+#banner {
+	background-color: #ccc;
+	padding: 10px;
+}
+
+#cont {
+	padding: 0 10px 30px;
+	background-color: #ccc;
+}
+
+#cont h2{
+	color: #3299FE;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.5rem;
+	border-bottom: thin solid #999;
+	padding: 10px;
+	margin-bottom: 16px;
+}
+#cont p, #cont ul  {
+	padding: 0 10px 10px;
+	text-align: justify;
+}
+#cont ul {
+	margin-left: 50px;
+}
+
+#footer {
+	background-color: #ccc;
+	margin-bottom: 10px;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 0.8rem;
+	border-top: thin solid #999;
+	margin: 0 20px;
+	padding: 20px 0;
+}
